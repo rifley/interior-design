@@ -3,7 +3,11 @@ body {
   color: salmon;
   clear: both;
   background-color: white;
-  background-image: url("../img/stars.jpg")
+
+}
+
+.bground {
+  background-image: url("../img/stars.jpg");
 }
 
 p.top{
@@ -12,10 +16,13 @@ p.top{
 }
 
 .column{
+  border: 5px solid white;
   width: 300px;
   float: right;
 }
 
 .nunya{
   clear: both;
+  border: 4px solid white;
+  padding: 3px;
 }
